@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="login.DWS_WishList_09_Test">
+        <methods>
+          <include name="launchingBrowserAndNavagateToApp"/>
+          <include name="loginToApplication"/>
+          <include name="logoutFromApplication"/>
+          <include name="addproductToWishList"/>
+          <include name="tearDownTheBrowser"/>
+        </methods>
+      </class> <!-- login.DWS_WishList_09_Test -->
+      <class name="login.DWS_Cart_03_Test">
+        <methods>
+          <include name="launchingBrowserAndNavagateToApp"/>
+          <include name="loginToApplication"/>
+          <include name="logoutFromApplication"/>
+          <include name="addproductToCart"/>
+          <include name="tearDownTheBrowser"/>
+        </methods>
+      </class> <!-- login.DWS_Cart_03_Test -->
+      <class name="login.DWS_Booktocart_04_Test">
+        <methods>
+          <include name="launchingBrowserAndNavagateToApp"/>
+          <include name="add_Book_to_remove"/>
+          <include name="loginToApplication"/>
+          <include name="logoutFromApplication"/>
+          <include name="tearDownTheBrowser"/>
+        </methods>
+      </class> <!-- login.DWS_Booktocart_04_Test -->
+      <class name="login.DWS_DeskTop_05_Test">
+        <methods>
+          <include name="launchingBrowserAndNavagateToApp"/>
+          <include name="loginToApplication"/>
+          <include name="logoutFromApplication"/>
+          <include name="addDeskTopCart"/>
+          <include name="tearDownTheBrowser"/>
+        </methods>
+      </class> <!-- login.DWS_DeskTop_05_Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
